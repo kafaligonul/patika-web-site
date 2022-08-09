@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kremalı Domates Çorbası</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: rgb(229, 195, 132) ;
+        }
+        .yazi p{
+            display: inline;
+            padding-left: 10px;
+        }
+        .yazi p span{
+            font-weight: bold;
+            color: red;
+        }
+        .kutu a, .kutu1 a{
+            background-color: rgb(195, 22, 22) ;
+            color: white;
+            border-radius: 10px;
+        }
+        .kutu{
+            margin-top: 10px;
+            padding-right: 350px ;  
+        }
+        .kutu1{
+            margin-top: 10px;
+            padding-right: 410px ;  
+        }
+        .liste ul,.liste1 ol{
+            display: flex;
+        }
+        .liste li,.liste1 li{
+            align-items: flex-start;
+           justify-content: center;
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <!-- Nav Start -->
+        <nav>
+            <h1 style="color:red ;">...Kremalı Domates Çorbası...</h1>
+        </nav>
+        <!-- Nav End -->
+        <p style="font-weight:bold ;">Çorbanızın içerisine damak zevkinize göre fesleğen, kekik gibi baharatlar ekleyebilirsiniz.</p>
+        
+        <p><b>Tarif:</b> Nefis Yemek Tarifleri</p>
+        
+         <!-- Main Start -->
+        <main style="text-align: center ;">
+            <div class="yazi">
+                <p> <span>Kaç Kişilik:</span> 4 Kişilik</p>
+                <p> <span>Hazırlama Süresi:</span> 20 Dakika</p>
+                <p> <span>Pişirme Süresi:</span> 10 Dakika</p>
+            </div>
+
+            <div>
+                <div class="kutu">
+                    <a style="display:inline">Kremalı Domates Çorbası Tarifi İçin Malzemeler...</a>
+
+                    <div>
+                        <ul class="liste" >
+                           <li>5 adet domates</li>
+                           <li>1 yemek kaşığı domates salçası</li>
+                           <li>2 yemek kaşığı un</li>
+                           <li>2yemek kaşığı tereyağı</li>
+                           <li>Yarım paket krema</li>
+                           <li>1 tatlı kaşığı tuz</li>
+                           <li> 1 çay bardağı ılık süt</li>
+                           <li>Yarım çay kaşığı karabiber</li>
+                           <li>4 su bardağı sıcak su</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="kutu1">
+                    <a style="display:inline">Kremalı Domates Çorbası Nasıl Yapılır?</a>
+
+                    <div >
+                        <ol class="liste1">    
+                            <li>Kabuklarını ince bir şekilde soyduğumuz domatesleri küp küp doğrayalım.</li>
+                            <li>Uygun bir tencereye tereyağını alalım ve eritelim.</li>
+                            <li>Eriyen yağın üzerine unu ekleyelim ve kokusu çıkana kadar kavuralım.</li>
+                            <li>Daha sonra domates salçası ekleyerek kavurmaya devam edelim.</li>
+                            <li>Doğradığımız domatesleri de ekleyip karıştırarak pişirmeye devam edelim.</li>
+                            <li>Yaklaşık 8-10 dakika kavurduktan sonra suyunu salan ve pişmeye başlayan domateslerin üzerine sıcak su ekleyerek karıştıralım ve tencerenin kapağını hafif kapatarak yaklaşık 20 dakika pişmeye bırakalım.</li>
+                            <li>Sürenin sonunda tekrar çorbamızı şöyle bir karıştıralım ve ardından pürüzsüz bir kıvam alıncaya kadar blendırdan geçirelim.</li>
+                            <li> Daha sonra ılık sütü ekleyerek bir iki tur karıştıralım. Bu aşamada sütün mutlaka ılık olması gerekiyor.</li>
+                            <li>Ardından kremayı da ekleyerek karıştıralım.</li>
+                            <li>Çorbamıza son olarak tuz ve karabiberi ekleyelim, karıştırıp kaynamasını bekleyelim.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Main End -->
+
+
+        <!-- Footer Start -->
+        <footer>
+            <h2 style="text-align: right ;"> Afiyet Olsun</h2>
+        </footer>
+        <!-- Footer End -->
+    
+</body>
+</html>
